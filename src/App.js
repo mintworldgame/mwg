@@ -131,7 +131,7 @@ const App = () => {
     // Calculate price based on length of domain (change this to match your contract)
     // 3 chars = 0.5 MATIC, 4 chars = 0.3 MATIC, 5 or more = 0.1 MATIC
     const price =
-      domain.length === 2 ? "0.1" : domain.length === 3 ? "0.1" : "0.1";
+      domain.length === 2 ? "500" : domain.length === 3 ? "50" : "1";
     console.log("Minting domain", domain, "with price", price);
     try {
       const { ethereum } = window;
