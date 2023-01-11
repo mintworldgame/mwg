@@ -283,7 +283,7 @@ const App = () => {
             type="text"
             value={domain}
             placeholder="domain"
-            onChange={(e) => setDomain(e.target.value)}
+            onChange={(e) => setDomain(e.target.value.toLowerCase())}
           />
           <p className="tld"> {tld} </p>
         </div>
